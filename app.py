@@ -12,8 +12,8 @@ app = Flask(__name__)
 
 # 初始化 Supabase 客户端
 supabase = create_client(
-    os.getenv("SUPABASE_URL"),
-    os.getenv("SUPABASE_KEY")
+    os.getenv("https://ylmwengsakeflaqlqaef.supabase.co"),
+    os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlsbXdlbmdzYWtlZmxhcWxxYWVmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIyMzkzNzAsImV4cCI6MjA2NzgxNTM3MH0.eAIPIu0ro0Vwr2gx0kKZLmpUPUir88rePm5Gz518Z14")
 )
 
 # 生成二维码
